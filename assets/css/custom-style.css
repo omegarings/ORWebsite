@@ -1,0 +1,316 @@
+/*/////////////////////////////////////////////////////////////////////
+ // 
+ // Custom theme code styles
+ // Written by Themelize.me (http://themelize.me)
+ // 
+ // This is an empty starter template for overriding styles
+ // set by Bootstrap & the theme
+ // 
+ // ----------------------------------------------------
+ // 
+ // Remove unused code for better performances
+ // 
+ // ----------------------------------------------------
+ // 
+ // $see - Usefuls tools online for editing
+ // 1. http://charliepark.org/bootstrap_buttons/ - Button style generator
+ // 2. http://www.colorzilla.com/gradient-editor/ - CSS3 gradient maker
+ // 
+ // $note
+ // To ensure custom styles are picked up
+ // wrap definitions in body tag
+ // ie.
+ // body .navbar-inner {
+ //   background: #ff0000;
+ // }
+ // 
+ /////////////////////////////////////////////////////////////////////*/
+
+
+/*******************************************************
+ * Custom theme code styles
+ * Written by Themelize.me (http://themelize.me)
+ *
+ * Includes the base variables & mixins needed for all
+ * scss files
+ *******************************************************/
+
+
+/*
+ * --------------------------------------------------
+ * 1. General Elements
+ *--------------------------------------------------
+ */
+
+#header {
+    /* 1. Header wrapper */
+}
+
+#highlighted {
+    /* 2. Highlighted (below header) wrapper */
+}
+
+#content {
+    /* 3. Content wrapper */
+}
+
+#content-below {
+    /* 4. Content Below wrapper */
+}
+
+#footer {
+    /* 5. Footer wrapper */
+}
+
+.navbar-expand-md .navbar-main .navbar-nav>.nav-item>.nav-link,
+.navbar-expand-md .navbar-main .navbar-nav>.nav-link,
+.navbar-expand-md.navbar-main .navbar-nav>.nav-item>.nav-link,
+.navbar-expand-md.navbar-main .navbar-nav>.nav-link {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 15px;
+}
+
+.font-lg-x0 {
+    font-size: 2.5rem!important;
+}
+
+/*
+ * --------------------------------------------------
+ * 2. Colours
+ *--------------------------------------------------
+ */
+.color-orange{
+    color: #FD8B66!important;
+}
+.bg-orange{
+    background: #FD8B66!important;
+}
+
+
+/*
+ * --------------------------------------------------
+ * 3. Responsiveness/media queries
+ *--------------------------------------------------
+ */
+
+
+/* Extra small devices (phones, less than 768px) */
+
+
+/* No media query since this is the default in Bootstrap */
+
+@media (min-width: 576px) {
+    /* Small devices (576px and up). Mixin: media-breakpoint-up(sm) */
+}
+
+@media (min-width: 768px) {
+    /* Medium devices (768px and up). Mixin: media-breakpoint-up(md) */
+}
+
+@media (min-width: 992px) {
+    /* Large devices (992px and up). Mixin: media-breakpoint-up(lg) */
+}
+
+@media (min-width: 1200px) {
+    /* X-Large devices (1200px and up). Mixin: media-breakpoint-up(xl) */
+}
+
+
+/* max-width */
+
+@media (max-width: 575px) {
+    /* Small devices (575px and down). Mixin: media-breakpoint-down(xs) */
+}
+
+@media (max-width: 767px) {
+    /* Medium devices (767px and down). Mixin: media-breakpoint-down(sm) */
+}
+
+@media (max-width: 991px) {
+    /* Large devices (992px and down). Mixin: media-breakpoint-down(md) */
+}
+
+@media (max-width: 1199px) {
+    /* X-Large devices (1200px and down). Mixin: media-breakpoint-down(lg) */
+}
+
+
+/* target one breakpoint */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* Small devices (between 576px and 767px). Mixin: media-breakpoint-only(sm) */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Medium devices (tablets, between 768px and 991px). Mixin: media-breakpoint-only(md) */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Large devices (desktops, between 992px and 1199px). Mixin: media-breakpoint-only(lg) */
+}
+
+
+/* span multiple screenwidths */
+
+@media (min-width: 768px) and (max-width: null) {
+    /* From medium to large (between 768px and 1199px). Mixin: media-breakpoint-between(md, xl)  */
+}
+
+
+/*
+ * --------------------------------------------------
+ * 4. Misc
+ * Other stuff
+ *--------------------------------------------------
+ */
+/*.w-880 {*/
+    /*width: 880px;*/
+/*}*/
+
+/*.pt-1 {*/
+    /*padding-top: 1em;*/
+/*}*/
+
+.nav-steps.flex-lg-row-reverse:after, .nav-steps.flex-lg-row:after {
+    border: 0;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(27, 27, 27, .8),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(27, 27, 27, .8),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(27, 27, 27, .8),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(27, 27, 27, .8),rgba(0,0,0,0));
+}
+
+hr.hr-slate {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    clear: both;
+    border: 0;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(27, 27, 27, .8),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(27, 27, 27, .8),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(27, 27, 27, .8),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(27, 27, 27, .8),rgba(0,0,0,0));
+}
+.nav-steps .nav-link.active > .hr-slate {
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(255,255,255,1),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(255,255,255,1),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(255,255,255,1),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(255,255,255,1),rgba(0,0,0,0));
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+p.m-5 {
+    font-weight: bold;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.15em;
+    padding: 25px 75px;
+    border: 6px solid rgba(195, 195, 195, 0.5);
+}
+.m-5 {
+    margin: 3rem;
+}
+
+.nav-steps .nav-link.active, .nav-steps .nav-link.active:hover {
+    border: 3px solid #B9664B;
+}
+
+.nav-steps.flex-lg-row .nav-link, .nav-steps.flex-lg-row-reverse .nav-link {
+    padding: 4em;
+}
+
+.nav-steps .nav-link {
+    border: 3px solid #E6E6E6;
+}
+
+.text-letter-spacing-lg {
+    letter-spacing: 2px;
+}
+
+.text-letter-spacing-md{
+    letter-spacing: 1.2px;
+}
+
+h1.card-title {
+    font-size: 55px;
+}
+
+.navbar-expand-md .navbar-main.collapse .dropdown-menu .dropdown-item,
+.navbar-expand-md.navbar-main.collapse .dropdown-menu .dropdown-item {
+    font-size: 16px;
+    font-family: 'Roboto Slab', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.orange-circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: #FD8B66;
+    border-color: #FD8B66;
+    color: #fff;
+}
+
+.no-style{
+    margin: 0 !important;
+    padding:0 !important;
+}
+
+/*******************************************************
+ * Custom theme code styles
+ * Written by Themelize.me (http://themelize.me)
+ *
+ * Includes the base variables & mixins needed for all
+ * scss files
+ *******************************************************/
+
+.owl-text-overlay {
+    position: absolute;
+    text-align: right;
+    width: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    border-radius: 15px 50px 30px 5px;
+}
+h2.owl-title {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+h2.owl-title .text-black {
+    color: #000;
+}
+
+h2.owl-title .text-white {
+    color: #000;
+}
+
+
+p.owl-caption {
+    font-size: 1.75rem;
+    line-height: 24px;
+    font-weight: bold;
+    color: #FD8B66;
+}
+.owl-theme .owl-controls .owl-page span:active {
+    background: #fff !important;
+}
+/* hide previous and next */
+
+.col-sm-6 {
+    float: left;
+}
+
+.success {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid;
+}
